@@ -16,6 +16,7 @@ public class HelloJNI {
         System.out.println(avg);
 
         jni.callFromRust();
+        System.out.println("Finished");
     }
 
     void showFromJava() {
