@@ -93,7 +93,7 @@ So, how do we call the JNI API? Well, we are given a pointer to a ```JNIEnv``` o
 let version = ((*jniEnv.functions).GetVersion)(jniEnv)
 ```
 
-The code in this repository contains a couple of (non-exhaustive) examples of how to call Rust functions from the JVN and viceversa.
+The code in this repository contains a couple of (non-exhaustive) examples of how to call Rust functions from the JVM and vice versa.
 
 ## How to run the examples
 Make sure you have the JDK and Cargo installed, and just run:
